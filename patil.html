@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Event Website</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: linear-gradient(to right, #000000, #434343);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        .banner {
+            background: url('https://images.unsplash.com/photo-1523580846011-d3a5bc25702b');
+            height: 250px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .box {
+            background: white;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+        }
+
+        footer {
+            background: linear-gradient(to right, #000000, #434343);
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>College Event Management</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Events</a>
+    <a href="#">Register</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="banner"></div>
+
+<section>
+
+    <div class="box">
+        <h2>Welcome</h2>
+        <p>This website helps students to register for college events easily.</p>
+        <button>Explore Events</button>
+    </div>
+
+    <div class="box">
+        <h2>Upcoming Events</h2>
+        <ul>
+            <li>Tech Fest</li>
+            <li>Cultural Event</li>
+            <li>Sports Meet</li>
+        </ul>
+    </div>
+
+    <div class="box">
+        <h2>Register for Event</h2>
+        <form>
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your name">
+
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email">
+
+            <label>Event:</label>
+            <input type="text" placeholder="Event name">
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="box">
+        <h2>Contact Us</h2>
+        <p>Email: collegeevents@gmail.com</p>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 College Event Website</p>
+</footer>
+
+</body>
+</html>
